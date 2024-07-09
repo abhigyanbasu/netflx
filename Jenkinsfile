@@ -3,7 +3,7 @@ pipeline{
         label "slave1"
     }
     tools{
-        jdk 'jdk17'
+        jdk 'Java17'
         nodejs 'node16'
     }
     environment {
